@@ -11,10 +11,6 @@ const movieSchema = new Schema({
        type: Number,
        required: true
     },
-    producer: {
-       type: String,
-       required: true
-   }
 }, {
     timestamps: true
 });
